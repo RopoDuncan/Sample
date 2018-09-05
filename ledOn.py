@@ -14,5 +14,5 @@ print ("Led On")
 
 GPIO.output(led, GPIO.HIGH)
 sleep(10)
-print ("now off")
+print ("Led Off")
 GPIO.output(led, GPIO.LOW)
